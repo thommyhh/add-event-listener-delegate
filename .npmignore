@@ -2,3 +2,4 @@ src
 .gitignore
 tsconfig.json
 yarn.lock
+.idea
