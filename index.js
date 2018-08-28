@@ -5,6 +5,7 @@
  * @param selector {string}
  * @param eventType {string}
  * @param callback {function(ev: Event, element: Element)}
+ * @param stopAtFirstMatch {boolean}
  */
 export default function(element, selector, eventType, callback, stopAtFirstMatch = true) {
 	element.addEventListener(eventType, ev => {
