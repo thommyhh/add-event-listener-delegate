@@ -1,6 +1,6 @@
 {
 	"name": "add-event-listener-delegate",
-	"version": "2.0.1",
+	"version": "2.0.2",
 	"description": "A light-weight library to add event listeners that use delegation. This is helpful, if you have frequently changing child elements. Works similar to jQuery.on() method.",
 	"license": "MIT",
 	"main": "index.js",
