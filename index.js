@@ -11,7 +11,7 @@ export default function(element, selector, eventType, callback, stopAtFirstMatch
 	element.addEventListener(eventType, ev => {
 		/** @type {Element} */
 		let node = ev.target
-		do {
+		while (node !== element) {
 			if (node.matches(selector)) {
 				callback(ev, node)
 				if (stopAtFirstMatch) {
@@ -19,6 +19,6 @@ export default function(element, selector, eventType, callback, stopAtFirstMatch
 				}
 			}
 			node = node.parentElement
-		} while (node !== element)
+		}
 	})
 }

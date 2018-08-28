@@ -23,7 +23,7 @@ to install the package.
 # Usage
 In your javascript use
 ```javascript
-let addEventListenerDelegate = require('add-event-listener-delegate')
+let addEventListenerDelegate = require('add-event-listener-delegate').default
 ```
 or
 ```javascript
